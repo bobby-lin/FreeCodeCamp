@@ -4,7 +4,7 @@
 
 [![Join the chat at https://gitter.im/freecodecamp/freecodecamp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/freecodecamp/freecodecamp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Welcome to Free Code Camp's open source codebase and curriculum!
+Welcome to Free Code Camp's open source codebase and curriculum!!
 =======================
 
 Free Code Camp is an open-source community where you learn to code and help nonprofits.
