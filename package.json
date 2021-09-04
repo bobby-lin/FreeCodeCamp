@@ -40,7 +40,7 @@
     "connect-mongo": "~0.8.2",
     "cookie-parser": "^1.4.0",
     "csso": "^1.4.1",
-    "dateformat": "^1.0.11",
+    "dateformat": "^2.0.0",
     "debug": "^2.2.0",
     "dedent": "~0.6.0",
     "dotenv": "^1.2.0",
