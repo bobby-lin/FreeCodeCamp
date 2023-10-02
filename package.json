@@ -114,7 +114,7 @@
     "request": "^2.65.0",
     "rev-del": "^1.0.5",
     "rx": "^4.0.0",
-    "sanitize-html": "^1.11.1",
+    "sanitize-html": "^2.0.0",
     "sort-keys": "^1.1.1",
     "store": "https://github.com/berkeleytrue/store.js.git#feature/noop-server",
     "thundercats": "^3.0.0",
