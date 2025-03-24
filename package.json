@@ -22,7 +22,9 @@
     "lint-json": "npm run lint-server && npm run lint-nonprofits && npm run lint-challenges && npm run lint-resources && npm run lint-utils",
     "test-challenges": "babel-node seed/test-challenges.js | tnyan",
     "pretest": "npm run lint",
-    "test": "npm run test-challenges"
+    "test": "npm run test-challenges",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "license": "(BSD-3-Clause AND CC-BY-SA-4.0)",
   "dependencies": {
@@ -126,7 +128,8 @@
     "webpack": "^1.9.12",
     "webpack-stream": "^2.1.1",
     "xss-filters": "^1.2.6",
-    "yargs": "^3.30.0"
+    "yargs": "^3.30.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "blessed": "~0.1.81",
@@ -142,5 +145,6 @@
     "mocha": "^2.3.3",
     "tap-nyan": "0.0.2",
     "tape": "^4.2.2"
-  }
+  },
+  "snyk": true
 }
